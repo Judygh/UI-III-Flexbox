@@ -103,10 +103,10 @@ h1, h2, h3, h4, h5 {
 
 
   
-   .intro {
+   /* .intro {
 	padding: 100px;
 	text-align: center;
-  } 
+  }  */
   
    .intro {
 	background-color: white;
@@ -285,7 +285,7 @@ h1, h2, h3, h4, h5 {
 		display: flex;
 		flex-direction: row;
 	  }
-	  
+
 	  .intro-container .intro {
 		text-align: center;
 		display: flex;

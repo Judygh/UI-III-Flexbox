@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
-	width: 800px;
+	width: 900px;
 	margin: auto;
   }
   
@@ -91,10 +91,11 @@ h1, h2, h3, h4, h5 {
   nav {
 	display: flex;
 	justify-content: space-evenly;
-	width:70%;
+	width:80%;
 	background: white;
 	align-items: center;
   }
+
   nav a {
 	color: grey;
 	text-decoration: none;
@@ -113,10 +114,6 @@ h1, h2, h3, h4, h5 {
 	width: 130px;
 	margin: 15px;
   } 
-  
-  footer {
-	text-align: center;
-  }
   
   .picture-box {
 	width: 100%;
@@ -170,12 +167,12 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
   }
 
-  .intro .started {
+  /* .intro .started {
 	background-color: white;
 	text-align: center;
 	width: 130px;
 	margin: 15px;
-  }
+  } */
   
   /* Tablets */
   /* @media (max-width: 800px) {
@@ -279,18 +276,14 @@ h1, h2, h3, h4, h5 {
 		flex-direction: column-reverse;
 	  } */
 
-	  .top-content {
+	  /* .top-content {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 	  }
   
 	  .bottom-content {
 		display: flex;
-		flex-direction: column;
-	  }
-  
-	  .intro-container .introimg {
-		display: none;
+		flex-direction: row;
 	  }
 	  .intro-container .intro {
 		text-align: center;
@@ -354,12 +347,22 @@ h1, h2, h3, h4, h5 {
 	background-color: white;
 	margin: 20px;
 	background-color: lightgrey;
-}
+} */
 .conclusion{
-	display: flex; */
-	/* flex-direction: row;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content:space-between;
+	margin:0 auto;
+}
+.first-section{
+	width:46%;
+	padding: 5% 0;
+	margin: 0 auto;
+	margin-left: 0%;
 }
 
 footer{
 	text-align: center;
+	margin: 1%;
 } 
